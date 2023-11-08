@@ -1,0 +1,768 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://db.onlinewebfonts.com/c/29ddb4605533a38e086b48fa105e0d12?family=Nohemi');
+
+* {
+  font-family: 'montserrat';
+}
+
+body {
+  color: #272829;
+  box-sizing: border-box;
+}
+
+span.navbar-toggler-icon {
+  color: #1a5fb4;
+  font-size: calc(15px + 0.2vw);
+}
+
+button.navbar-toggler {
+  border: 1px solid #1555a3;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Navigation */
+nav.styt {
+  background-color: #fff;
+  padding: 12px 0;
+  border-bottom: 1px solid #e7e7e7;
+
+}
+
+img.sicon {
+  width: 17%;
+}
+
+a.siteicon {
+  font-family: 'Nohemi';
+  font-size: calc(17px + 0.2vw);
+  color: #1a5fb4;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  padding: 0;
+  margin: 0;
+}
+
+a.siteicon:hover {
+  color: #1555a3;
+}
+
+a.nav-link {
+  font-size: calc(12px + 0.2vw);
+  color: #272829;
+  font-weight: 500;
+  padding: 0 3px;
+  letter-spacing: 0.5px;
+}
+
+a.nav-link:hover {
+  color: #1a5fb4;
+}
+
+a.act.nav-link {
+  color: #1a5fb4;
+  font-weight: 600;
+}
+
+a.dropdown-item {
+  font-size: calc(12px + 0.2vw);
+  color: #272829;
+  font-weight: 500;
+  padding: 3px 10px;
+}
+
+a.dropdown-item:hover {
+  color: #fff;
+  background-color: #1a5fb4;
+}
+
+.btnarea {
+  margin-left: 25px;
+}
+
+button.btn.bn1 {
+  border: none;
+  font-size: calc(12px + 0.2vw);
+  font-weight: 600;
+  background-color: transparent;
+}
+
+button.btn.bn2 {
+  border: none;
+  font-size: calc(12px + 0.2vw);
+  font-weight: 600;
+  background-color: #1a5fb4;
+  color: #fff;
+  border-radius: 80px;
+  padding: 8px 18px;
+}
+
+button.btn.bn2:hover {
+  border: solid 1px #1a5fb4;
+  font-size: calc(12px + 0.2vw);
+  background-color: #fff;
+  color: #1a5fb4;
+}
+
+/* Hero Section */
+#hero {
+  padding: 15px 0 10px;
+  background-color: #ebedff;
+}
+
+.sc1 {
+  padding: 85px 0 0px;
+}
+
+.trac {
+  color: #1555a3;
+  font-size: calc(33px + 0.2vw);
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.tracp {
+  color: #272829;
+  font-weight: 500;
+  font-size: calc(13.3px + 0.2vw);
+  padding-right: 65px;
+}
+
+.herobtns {
+  padding-top: 8px;
+}
+
+button.b1 {
+  padding: 14px 22px;
+  background-color: #ff7800;
+  color: #fff;
+  border: none;
+  border-radius: 80px;
+  font-size: calc(12px + 0.2vw);
+  margin-right: 10px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+
+button.b1:hover {
+  background-color: #e7720b;
+}
+
+button.b2 {
+  padding: 14px 20px;
+  background-color: transparent;
+  color: #ff7800;
+  border: solid 1px #ff7800;
+  border-radius: 80px;
+  font-size: calc(12px + 0.2vw);
+  margin-right: 10px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+
+.anima {
+  margin-top: -75px;
+}
+
+.anicon {
+  width: 550px;
+  height: 550px;
+}
+
+/* What We Do Section */
+#wwd {
+  background-color: #fff;
+  padding: 35px 40px 55px;
+  text-align: center;
+}
+
+.wwd-img {
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+div.ctr {
+  padding: 0 25px;
+}
+
+.title {
+  font-size: calc(16px + 0.2vw);
+  font-weight: 700;
+  color: #1555a3;
+  letter-spacing: 0.3;
+}
+
+.cont {
+  font-size: calc(11.5px + 0.2vw);
+  font-weight: 400;
+  letter-spacing: 0.3;
+  padding: 0 0 10px;
+}
+
+/* Get Our App Section */
+#goa {
+  background-color: #ff770050;
+  padding: 5px 10px 0;
+  margin: 0;
+}
+
+.phn {
+  width: 125%;
+  margin: -75px 0 0;
+}
+
+div.bx {
+  margin: 10px 0 0;
+  padding: 30px 5px 0 100px;
+}
+
+.trapp {
+  color: #ff7800;
+  font-size: calc(19px + 0.2vw);
+  font-weight: 700;
+  letter-spacing: 0.4;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.trapp-p {
+  color: #272829;
+  font-size: calc(12px + 0.2vw);
+  letter-spacing: 0.4;
+  font-weight: 500;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+button.btn.trapp-bt {
+  color: #fff;
+  background-color: #000;
+  font-size: calc(11px + 0.2vw);
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  margin-right: 4px;
+  padding: 8px 13px;
+  border-radius: 20px;
+}
+
+.rati {
+  margin: 10px 0 0;
+}
+
+p.ratin {
+  margin: -3px 0 0;
+  font-size: calc(11px + 0.2vw);
+  font-weight: 500;
+}
+
+/* More Features */
+#mfs {
+  padding: 40px 30px 60px;
+  background-color: #f2f3ff;
+  text-align: center;
+}
+
+.pln {
+  font-size: calc(23px + 0.2vw);
+  font-weight: 700;
+  color: #1a5fb4;
+  padding: 30px 0 10px;
+  margin: 0;
+}
+
+.pln-p {
+  color: #272829;
+  font-size: calc(12px + 0.2vw);
+  letter-spacing: 0.4;
+  font-weight: 500;
+  padding: 0 45px;
+  margin: 0 0 15px;
+}
+
+.mfs {
+  padding-bottom: 35px;
+}
+
+.mfs-img {
+  width: 75%;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+/* Footer Nav */
+
+#footer {
+  background-color: #1a5fb4;
+  padding: 35px 20px 40px;
+  color: #fff;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+.mwl {
+  font-size: calc(11px + 0.25vw);
+  letter-spacing: 0.3px;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0 0 20px;
+}
+
+.footer-h {
+  font-family: "Nohemi";
+  font-size: calc(25px + 0.1vw);
+  font-weight: bolder;
+  color: #ff7800;
+  padding: 5px 0 0;
+  margin: 0;
+}
+
+.footer-p {
+  font-size: calc(11.5px + 0.1vw);
+  letter-spacing: 0.4px;
+  font-style: italic;
+  padding: 0;
+  margin: -5px 0 30px;
+}
+
+.footer-c {
+  font-size: calc(13px + 0.1vw);
+  letter-spacing: 0.4px;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+
+.socs {
+  padding: 0;
+  margin: 0;
+}
+
+.socs a {
+  font-size: calc(15px + 0.1vw);
+  padding: 0 5px 0 0;
+  margin: 0;
+}
+
+.hdin {
+  font-size: calc(17px + 0.1vw);
+  font-weight: 600;
+}
+
+ul.footer-li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.li-item {
+  margin: 0 0 5px;
+  font-size: calc(13px + 0.1vw);
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.dwn {
+  padding: 5px 0 0;
+}
+
+.dwn button {
+  background-color: #fff;
+  color: #1a5fb4;
+  font-size: calc(13.5px + 0.1vw);
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  border-radius: 15px;
+  margin: 0 0 10px;
+  padding: 10px 16px;
+}
+
+/* Responsiveness */
+
+/* Tabelet View */
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+  a.nav-link {
+    border-bottom: 1px solid #1555a3;
+    padding: 8px 2px;
+    font-size: calc(13px + 0.25vw);
+  }
+
+  a.act.nav-link {
+    color: #1a5fb4;
+    font-weight: 600;
+  }
+  
+  ul.show{
+    border: none;
+  }
+
+  a.dropdown-item{
+    padding: 5px 0;
+    font-size: calc(13px + 0.25vw);
+  }
+
+  button.btn.bn1{
+    border: 1px solid #1555a3;
+    border-radius: 80px;
+    padding: 8px 18px;
+  }
+
+  div.btnarea{
+    margin: 0;
+    padding: 12px 0 5px;
+  }
+
+  nav.styt {
+    padding: 8px 0 6px;
+  }
+
+  /* Hero */
+  #hero {
+    padding: 35px 5px 15px;
+  }
+
+  .sc1 {
+    padding: 0;
+  }
+
+  div.anima {
+    width: 20%;
+    margin-top: 0;
+  }
+
+  .anicon {
+    width: 21em;
+    height: 21em;
+    margin-top: -2.3rem;
+  }
+
+  .trac {
+    font-size: calc(23px + 0.2vw);
+    padding-right: 0;
+  }
+
+  .tracp {
+    font-size: calc(12.3px + 0.2vw);
+    padding-right: 0;
+    margin-bottom: 5px;
+  }
+
+  button.b1 {
+    padding: 13px 20px;
+    margin-right: 5px;
+  }
+
+  button.b2 {
+    padding: 13px 20px;
+    margin-right: 5px;
+  }
+
+  #wwd {
+    padding: 20px 30px;
+  }
+
+  .title {
+    font-size: calc(15px + 0.2vw);
+  }
+
+  .cont {
+    font-size: calc(11px + 0.2vw);
+    padding: 0;
+  }
+
+  #goa {
+    padding: 10px 10px 0 0;
+  }
+
+  .phn {
+    width: 135%;
+    margin: 0 0 0 -15px;
+  }
+
+  div.bx {
+    margin: 0;
+    padding: 10px 5px 0 80px;
+  }
+
+  .trapp {
+    font-size: calc(17px + 0.2vw);
+    font-weight: 700;
+    letter-spacing: 0.3;
+    padding-bottom: 10px;
+  }
+
+  .trapp-p {
+    font-size: calc(11px + 0.2vw);
+    letter-spacing: 0.3;
+    margin: 0 0 10px;
+  }
+
+  p.ratin {
+    margin: -1px 0 0;
+  }
+
+  #mfs {
+    padding: 35px 15px;
+  }
+
+  .title{
+    font-size: calc(14px + 0.2vw);
+  }
+
+  .pln {
+    font-size: calc(20px + 0.2vw);
+    padding: 15px 0 10px;
+  }
+
+  .mfs {
+    padding-bottom: 15px;
+  }
+
+  #footer {
+    padding: 25px 15px 30px;
+  }
+
+  .footer-h {
+    font-size: calc(22px + 0.1vw);
+  }
+
+  .footer-p {
+    font-size: calc(11px + 0.1vw);
+    margin: -3px 0 20px;
+  }
+
+  .hdin {
+    font-size: calc(16px + 0.1vw);
+  }
+
+  .li-item {
+    margin: 0 0 4px;
+    font-size: calc(12px + 0.1vw);
+  }
+
+  .dwn button {
+    font-size: calc(13px + 0.1vw);
+    letter-spacing: 0.3px;
+    border-radius: 15px;
+    margin: 0 0 8px;
+    padding: 9px 15px;
+  }
+
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+
+  #hero{
+    padding: 45px 0 20px;
+  }
+
+  a.nav-link {
+    border-bottom: 1px solid #1555a3;
+    padding: 8px 2px;
+    font-size: calc(13px + 0.25vw);
+  }
+
+  a.act.nav-link {
+    color: #1a5fb4;
+    font-weight: 600;
+  }
+  
+  ul.show{
+    border: none;
+  }
+
+  a.dropdown-item{
+    padding: 5px 0;
+    font-size: calc(13px + 0.25vw);
+  }
+
+  button.btn.bn1{
+    border: 1px solid #1555a3;
+    border-radius: 80px;
+    padding: 8px 18px;
+  }
+
+  div.btnarea{
+    margin: 0;
+    padding: 12px 0 5px;
+  }
+
+  nav.styt {
+    padding: 8px 4px;
+  }
+
+  /* Hero */
+  #hero {
+    padding: 55px 15px 5px;
+    text-align: center;
+  }
+
+  .sc1 {
+    padding: 0;
+  }
+
+  div.anima {
+    margin: 0;
+    text-align: center;
+  }
+
+  .anicon {
+    width: 22em;
+    height: 22em;
+    margin-top: -2rem;
+    text-align: center;
+  }
+
+  .trac {
+    font-size: calc(24px + 0.2vw);
+    padding: 0;
+    font-weight: 700;
+  }
+
+  .tracp {
+    font-size: calc(13px + 0.5vw);
+    padding: 0;
+    margin-bottom: 5px;
+  }
+
+  button.b1 {
+    padding: 13px 20px;
+    margin-right: 5px;
+  }
+
+  button.b2 {
+    padding: 13px 20px;
+    margin-right: 5px;
+  }
+
+  div.ctr {
+    padding: 0 5px;
+  }
+
+  #wwd {
+    padding: 25px 10px;
+  }
+
+  .title {
+    font-size: calc(16px + 0.2vw);
+  }
+
+  .cont {
+    font-size: calc(13px + 0.2vw);
+    letter-spacing: 0.3px;
+    padding: 0;
+  }
+
+  #goa {
+    padding: 25px 5px;
+  }
+
+  .phn {
+    display: none;
+  }
+
+  div.bx {
+  margin: 0;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .trapp {
+    font-size: calc(17px + 0.2vw);
+    font-weight: 700;
+    letter-spacing: 0.3;
+    padding-bottom: 10px;
+  }
+
+  .trapp-p {
+    font-size: calc(13px + 0.2vw);
+    letter-spacing: 0.3;
+    margin: 0 0 10px;
+  }
+
+  button.btn.trapp-bt {
+    font-size: calc(11px + 0.3vw);
+    letter-spacing: 0.4px;
+    margin-right: 4px;
+    padding: 8px 13px;
+    border-radius: 20px;
+  }
+
+  p.ratin {
+    margin: -1px 0 0;
+  }
+
+  #mfs {
+    padding: 45px 10px;
+  }
+
+  .pln {
+    font-size: calc(17px + 0.2vw);
+    padding: 15px 0 10px;
+  }
+
+  .pln-p {
+    padding: 0;
+    font-size: calc(13px + 0.2vw);
+  }
+
+  .mfs {
+    padding-bottom: 15px;
+  }
+
+  #footer {
+    padding: 25px 10px 30px;
+  }
+
+  div.dbn {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .mwl {
+    padding-bottom: 10px;
+  }
+
+  .footer-h {
+    font-size: calc(22px + 0.1vw);
+  }
+
+  .footer-p {
+    font-size: calc(11px + 0.1vw);
+    margin: -3px 0 15px;
+  }
+
+  .hdin {
+    font-size: calc(16px + 0.1vw);
+  }
+
+  .li-item {
+    margin: 0 0 4px;
+    font-size: calc(12px + 0.1vw);
+  }
+
+  .dwn button {
+    font-size: calc(13px + 0.1vw);
+    letter-spacing: 0.3px;
+    border-radius: 15px;
+    margin: 0 0 8px;
+    padding: 9px 15px;
+  }
+
+}

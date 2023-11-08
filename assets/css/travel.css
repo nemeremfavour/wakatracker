@@ -1,0 +1,252 @@
+#trg {
+  padding: 45px 20px;
+  text-align: center;
+}
+
+.trgh {
+  font-size: calc(27px + 0.2vw);
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  padding-bottom: 10px;
+}
+
+.src {
+  padding: 0 150px 15px;
+}
+
+.src input {
+  padding: 15px 20px;
+  font-size: calc(12.5px + 0.2vw);
+  font-weight: 450;
+  letter-spacing: 0.2px;
+}
+
+.brws {
+  color: #8a8a8a;
+  font-size: calc(13.5px + 0.2vw);
+  font-weight: 450;
+  letter-spacing: 0.2px;
+}
+
+button.btn.t1 {
+  background-color: #e9ecef;
+  color: #8a8a8a;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: calc(11px + 0.2vw);
+  letter-spacing: 0.3px;
+  margin: 0 3px;
+  border: none;
+}
+
+button.btn.t1:hover {
+  background-color: #dadcdd;
+  color: #8a8a8a;
+  border: none;
+}
+
+/* Recent Travel Guides */
+#rtgs {
+  padding: 0 20px 10px;
+}
+
+#rtgs a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#rtgs a:hover {
+  color: #1a5fb4;
+}
+
+#rtgs h1 {
+  font-size: calc(20px + 0.2vw);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.guide-img {
+  width: 95%;
+  height: 160px;
+  border-radius: 15px;
+  margin: 10px 0 5px;
+}
+
+.guide-img:hover{
+  transition: 0.4s;
+  padding: 4px;
+}
+
+.guide-h {
+  font-size: calc(16px + 0.2vw);
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+div .guide-h svg {
+  font-size: calc(12px + 0.2vw);
+  color: #1555a3;
+}
+
+.guide-p {
+  font-size: calc(10.3px + 0.2vw);
+  color: #6b6b6b;
+  font-weight: 450;
+  margin-bottom: 7px;
+  letter-spacing: 0.2px;
+}
+
+.avt {
+  font-size: calc(12px + 0.2vw);
+  font-weight: 600;
+}
+
+.avt svg {
+  color: #1555a3;
+  font-size: 17px;
+}
+
+
+/* See More */
+#see-more{
+  padding: 10px 20px 45px;
+  text-align: center;
+}
+
+button.see-more{
+  background-color: #e9ecef;
+  color: #8a8a8a;
+  border: none;
+  font-weight: 600;
+  padding: 14px 23px;
+  border-radius: 50px;
+  font-size: calc(11px + 0.2vw);
+  letter-spacing: 0.3px;
+  margin: 0 3px;
+}
+
+button.see-more:hover{
+  background-color: #dadcdd;
+  color: #8a8a8a;
+  border: none;
+}
+
+.btn-places{
+  padding: 30px 0 10px;
+  text-align: left;
+}
+
+.destinations{
+  font-size: calc(20px + 0.2vw);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+button.d1{
+  background-color: #e9ecef;
+  color: #8a8a8a;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: calc(11px + 0.2vw);
+  letter-spacing: 0.3px;
+  margin: 5px 3px;
+  border: none;
+}
+
+button.d1:hover {
+  background-color: #dadcdd;
+  color: #8a8a8a;
+  border: none;
+}
+
+/* Responsiveness */
+
+/* Tabelet View */
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+  .src {
+    padding: 0 100px 15px;
+  }
+
+  .trgh {
+    font-size: calc(23px + 0.2vw);
+  }
+
+  .guide-img {
+    width: 100%;
+    height: 130px;
+  }
+
+  .guide-img:hover{
+    transition: 0.4s;
+    padding: 4px;
+  }
+
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+
+  #trg {
+    padding: 45px 5px;
+  }
+
+  .src {
+    padding: 0 5px 15px;
+  }
+
+  .src input {
+    padding: 10px 20px;
+    font-size: calc(12px + 0.2vw);
+  }
+
+  h1.trgh {
+    font-size: calc(22px + 0.2vw);
+  }
+
+  .trgh {
+    font-size: calc(23px + 0.2vw);
+  }
+
+  .guide-img {
+    width: 100%;
+    height: 180px;
+  }
+
+  .guide-img:hover{
+    transition: 0.4s;
+    padding: 4px;
+  }
+
+  #rtgs {
+    padding: 0 15px 10px;
+  }
+
+  .guide-h {
+    font-size: calc(17px + 0.2vw);
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  
+  div .guide-h svg {
+    font-size: calc(13px + 0.2vw);
+  }
+  
+  .guide-p {
+    font-size: calc(12.5px + 0.2vw);
+  }
+  
+  .avt {
+    font-size: calc(14px + 0.2vw);
+    font-weight: 600;
+  }
+  
+  .avt svg {
+    color: #1555a3;
+    font-size: 16px;
+  }
+}
