@@ -405,23 +405,23 @@ ul.footer-li {
     color: #1a5fb4;
     font-weight: 600;
   }
-  
-  ul.show{
+
+  ul.show {
     border: none;
   }
 
-  a.dropdown-item{
+  a.dropdown-item {
     padding: 5px 0;
     font-size: calc(13px + 0.25vw);
   }
 
-  button.btn.bn1{
+  button.btn.bn1 {
     border: 1px solid #1555a3;
     border-radius: 80px;
     padding: 8px 18px;
   }
 
-  div.btnarea{
+  div.btnarea {
     margin: 0;
     padding: 12px 0 5px;
   }
@@ -519,7 +519,7 @@ ul.footer-li {
     padding: 35px 15px;
   }
 
-  .title{
+  .title {
     font-size: calc(14px + 0.2vw);
   }
 
@@ -568,7 +568,7 @@ ul.footer-li {
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
 
-  #hero{
+  #hero {
     padding: 45px 0 20px;
   }
 
@@ -582,23 +582,23 @@ ul.footer-li {
     color: #1a5fb4;
     font-weight: 600;
   }
-  
-  ul.show{
+
+  ul.show {
     border: none;
   }
 
-  a.dropdown-item{
+  a.dropdown-item {
     padding: 5px 0;
     font-size: calc(13px + 0.25vw);
   }
 
-  button.btn.bn1{
+  button.btn.bn1 {
     border: 1px solid #1555a3;
     border-radius: 80px;
     padding: 8px 18px;
   }
 
-  div.btnarea{
+  div.btnarea {
     margin: 0;
     padding: 12px 0 5px;
   }
@@ -678,7 +678,7 @@ ul.footer-li {
   }
 
   div.bx {
-  margin: 0;
+    margin: 0;
     padding: 0 15px;
     text-align: center;
   }
