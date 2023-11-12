@@ -368,8 +368,8 @@ ul.footer-li {
 }
 
 .li-item {
-  margin: 0 0 5px;
-  font-size: calc(13px + 0.1vw);
+  margin: 0 0 7px;
+  font-size: calc(13px + 0.15vw);
   font-weight: 400;
   letter-spacing: 0.2px;
 }
@@ -550,8 +550,8 @@ ul.footer-li {
   }
 
   .li-item {
-    margin: 0 0 4px;
-    font-size: calc(12px + 0.1vw);
+    margin: 0 0 5px;
+    font-size: calc(13px + 0.15vw);
   }
 
   .dwn button {
@@ -753,8 +753,8 @@ ul.footer-li {
   }
 
   .li-item {
-    margin: 0 0 4px;
-    font-size: calc(12px + 0.1vw);
+    margin: 0 0 5px;
+    font-size: calc(13px + 0.15vw);
   }
 
   .dwn button {
