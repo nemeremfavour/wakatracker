@@ -32,7 +32,6 @@ nav.styt {
   background-color: #fff;
   padding: 12px 0;
   border-bottom: 1px solid #e7e7e7;
-
 }
 
 img.sicon {
@@ -90,7 +89,16 @@ button.btn.bn1 {
   border: none;
   font-size: calc(12px + 0.2vw);
   font-weight: 600;
+  margin-right: 4px;
+  border-radius: 80px;
+  padding: 8px 18px;
   background-color: transparent;
+}
+
+button.btn.bn1:hover {
+  background-color: #1a5fb428;
+  border-radius: 80px;
+  padding: 8px 18px;
 }
 
 button.btn.bn2 {
@@ -427,7 +435,7 @@ ul.footer-li {
   }
 
   nav.styt {
-    padding: 8px 0 6px;
+    padding: 10px 2px 8px;
   }
 
   /* Hero */
@@ -574,8 +582,10 @@ ul.footer-li {
 
   a.nav-link {
     border-bottom: 1px solid #1555a3;
-    padding: 8px 2px;
-    font-size: calc(13px + 0.25vw);
+    padding: 10px 2px;
+    margin: 2px 0;
+    letter-spacing: 0.3px;
+    font-size: calc(14px + 0.25vw);
   }
 
   a.act.nav-link {
@@ -594,8 +604,13 @@ ul.footer-li {
 
   button.btn.bn1 {
     border: 1px solid #1555a3;
+    font-size: calc(14px + 0.2vw);
     border-radius: 80px;
     padding: 8px 18px;
+  }
+
+  button.btn.bn2 {
+    font-size: calc(14px + 0.2vw);
   }
 
   div.btnarea {
@@ -604,7 +619,7 @@ ul.footer-li {
   }
 
   nav.styt {
-    padding: 8px 4px;
+    padding: 13px 5px 10px;
   }
 
   /* Hero */
