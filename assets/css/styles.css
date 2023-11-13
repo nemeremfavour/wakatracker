@@ -73,12 +73,14 @@ a.dropdown-item {
   font-size: calc(12px + 0.2vw);
   color: #272829;
   font-weight: 500;
-  padding: 3px 10px;
+  padding: 6px 10px;
+  margin: 2px 0;
 }
 
 a.dropdown-item:hover {
   color: #fff;
   background-color: #1a5fb4;
+  margin: 2px 0;
 }
 
 .btnarea {

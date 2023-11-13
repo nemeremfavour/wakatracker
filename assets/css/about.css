@@ -237,7 +237,7 @@
 
   .nfdd p {
     font-size: calc(13px + 0.2vw);
-    padding: 10px 30px 0;
+    padding: 10px 10px 0;
     line-height: 1.6;
     margin: 0 0 25px;
   }
@@ -363,9 +363,9 @@
 
   .nfdd p {
     font-size: calc(13px + 0.2vw);
-    padding: 10px 30px 0;
+    padding: 10px 0 0;
     line-height: 1.6;
-    margin: 0 0 25px;
+    margin: 0 0 20px;
   }
 
   .nfdd a {
