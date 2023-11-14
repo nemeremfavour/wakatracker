@@ -1,0 +1,163 @@
+#contactdet {
+ padding: 70px 20px 40px;
+ background-color: #f5f6fd;
+}
+
+.cst1 {
+ padding: 0;
+ margin-bottom: 40px;
+}
+
+.cst1 h1 {
+ font-size: calc(25px + 0.2vw);
+ font-weight: 700;
+ color: #011329;
+ text-transform: uppercase;
+ letter-spacing: 0.2px;
+ margin: 0 0 5px;
+}
+
+.cst1 svg {
+ color: #1a5fb4;
+ font-size: calc(22px + 0.2vw);
+ margin-left: 5px;
+}
+
+.cst1 p {
+ font-size: calc(13px + 0.2vw);
+ font-weight: 500;
+ letter-spacing: 0.3px;
+ line-height: 1.77;
+ color: #272829ec;
+}
+
+.cst1 .tme {
+ line-height: 2.8;
+}
+
+.cst1 a {
+ text-decoration: none;
+ font-weight: 600;
+}
+
+/* Form Area */
+div.formm {
+ padding-left: 20px;
+}
+
+div.formd {
+ margin-bottom: 20px;
+}
+
+.formd label {
+ font-size: calc(14px + 0.2vw);
+ text-transform: uppercase;
+ font-weight: 600;
+ margin-bottom: 5px;
+ letter-spacing: 0.2px;
+}
+
+.formd input {
+ padding: 8px;
+ border-radius: 5px;
+ font-size: calc(13px + 0.2vw);
+ border: 1px solid #dcdcdf;
+}
+
+.formd textarea {
+ font-size: calc(13px + 0.2vw);
+ border-radius: 5px;
+ border: 1px solid #dcdcdf;
+}
+
+.formm button {
+ padding: 12px 25px;
+ border-radius: 10px;
+ background-color: #ff7800;
+ color: #f8f8f8;
+ font-weight: 600;
+ text-transform: uppercase;
+ font-size: calc(12px + 0.2vw);
+ border: none;
+}
+
+.formm button:hover {
+ background-color: #e96d00;
+ color: #f8f8f8;
+ font-weight: 600;
+}
+
+/* Responsiveness */
+
+/* Tabelet View */
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+ #contactdet {
+  padding: 60px 20px 30px;
+ }
+
+ .cst1 {
+  padding: 0;
+  margin-bottom: 30px;
+ }
+
+ .cst1 h1 {
+  font-size: calc(19px + 0.2vw);
+ }
+
+ .cst1 svg {
+  font-size: calc(19px + 0.2vw);
+  margin-left: 5px;
+ }
+
+ .cst1 p {
+  font-size: calc(13px + 0.1vw);
+  line-height: 1.6;
+ }
+
+ .cst1 .tme {
+  line-height: 2.4;
+ }
+
+ div.formm {
+  padding-left: 10px;
+ }
+
+ .formd label {
+  font-size: calc(13px + 0.25vw);
+ }
+
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+
+ #contactdet {
+  padding: 30px 15px 45px;
+ }
+
+ .cst1 .tme {
+  line-height: 2.5;
+ }
+
+ div.formm {
+  padding: 0 9px;
+ }
+
+ .cst1 h1 {
+  font-size: calc(19px + 0.2vw);
+ }
+
+ .cst1 p {
+  font-size: calc(13px + 0.2vw);
+  line-height: 1.57;
+ }
+
+ .formd input {
+  padding: 8px;
+  border-radius: 3px;
+ }
+
+}
