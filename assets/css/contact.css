@@ -107,7 +107,7 @@ div.formd {
  }
 
  .cst1 svg {
-  font-size: calc(19px + 0.2vw);
+  font-size: calc(16px + 0.2vw);
   margin-left: 5px;
  }
 
@@ -146,13 +146,21 @@ div.formd {
   padding: 0 9px;
  }
 
+ .cst1{
+  text-align: center;
+ }
+
  .cst1 h1 {
   font-size: calc(19px + 0.2vw);
  }
 
+ .cst1 svg {
+  font-size: calc(15px + 0.2vw);
+ }
+
  .cst1 p {
   font-size: calc(13px + 0.2vw);
-  line-height: 1.57;
+  line-height: 1.77;
  }
 
  .formd input {
