@@ -384,7 +384,7 @@ ul.footer-li {
   letter-spacing: 0.2px;
 }
 
-.dwn {
+.dwn div {
   padding: 5px 0 0;
 }
 
@@ -774,12 +774,8 @@ ul.footer-li {
     font-size: calc(13px + 0.15vw);
   }
 
-  .dwn button {
-    font-size: calc(13px + 0.1vw);
-    letter-spacing: 0.3px;
-    border-radius: 15px;
-    margin: 0 0 8px;
-    padding: 9px 15px;
+  .dwn {
+    display: none
   }
 
 }

@@ -1,0 +1,69 @@
+#maps {
+ padding: 30px 20px;
+}
+
+#maps h1 {
+ color: #011329;
+ font-size: calc(23px + 0.2vw);
+ font-weight: 700;
+ padding: 0;
+ margin-bottom: 15px;
+}
+
+#maps a {
+ text-decoration: none;
+ display: block;
+ padding: 7px 0;
+ color: #272829;
+ font-size: calc(13px + 0.2vw);
+ font-weight: 600;
+ letter-spacing: 0.2px;
+}
+
+#maps a:hover{
+ color: #ff7800;
+ text-decoration: underline;
+}
+
+/* Responsiveness */
+
+/* Tabelet View */
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+ #maps {
+  padding: 25px 15px;
+ }
+
+ #maps h1 {
+  font-size: calc(20px + 0.2vw);
+  margin-bottom: 20px;
+ }
+ 
+ #maps a {
+  text-decoration: none;
+  display: block;
+  padding: 6px 0;
+  color: #272829;
+  font-size: calc(13px + 0.2vw);
+  font-weight: 600;
+  letter-spacing: 0.2px;
+ }
+
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+
+ #maps {
+  padding: 25px 15px;
+ }
+
+ #maps h1 {
+  color: #011329;
+  font-size: calc(17px + 0.25vw);
+  line-height: 1.55;
+  letter-spacing: 0.3px;
+
+}
