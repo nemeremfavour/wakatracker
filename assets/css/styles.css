@@ -7,7 +7,6 @@
 
 body {
   color: #272829;
-  box-sizing: border-box;
 }
 
 span.navbar-toggler-icon {
@@ -90,15 +89,16 @@ a.dropdown-item:hover {
 button.btn.bn1 {
   border: none;
   font-size: calc(12px + 0.2vw);
-  font-weight: 600;
+  font-weight: 500;
   margin-right: 4px;
   border-radius: 80px;
+  color: #3c3d3d;
   padding: 8px 18px;
-  background-color: transparent;
+  background-color: #1a5fb411;
 }
 
 button.btn.bn1:hover {
-  background-color: #1a5fb428;
+  background-color: #1a5fb433;
   border-radius: 80px;
   padding: 8px 18px;
 }
@@ -106,7 +106,7 @@ button.btn.bn1:hover {
 button.btn.bn2 {
   border: none;
   font-size: calc(12px + 0.2vw);
-  font-weight: 600;
+  font-weight: 500;
   background-color: #1a5fb4;
   color: #fff;
   border-radius: 80px;
@@ -177,12 +177,12 @@ button.b2 {
 }
 
 .anima {
-  margin-top: -75px;
+  margin-top: -5%;
 }
 
 .anicon {
-  width: 550px;
-  height: 550px;
+  width: 95%;
+  height: auto;
 }
 
 /* What We Do Section */
