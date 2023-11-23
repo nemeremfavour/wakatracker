@@ -104,7 +104,7 @@ button.btn.bn1:hover {
 }
 
 button.btn.bn2 {
-  border: none;
+  border: 1px solid #1a5fb4;
   font-size: calc(12px + 0.2vw);
   font-weight: 500;
   background-color: #1a5fb4;
