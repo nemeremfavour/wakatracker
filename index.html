@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="dist/fontawesome/css/all.css">
 
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
 </head>
 
 <body>
@@ -108,33 +111,33 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 ctr">
+        <div class="col-lg-4 col-md-6 ctr" data-aos="fade-up" data-aos-duration="950" data-aos-delay="100">
           <img src="assets/img/money.png" class="wwd-img"><br>
           <h1 class="title">Track travel expenses</h1>
           <p class="cont">Keep track of your travel expenses to make sure you don't go over your budget.</p>
         </div>
 
-        <div class="col-lg-4 col-md-6 ctr">
+        <div class="col-lg-4 col-md-6 ctr" data-aos="fade-up" data-aos-duration="950" data-aos-delay="150">
           <img src="assets/img/breakdown.png" class="wwd-img"><br>
           <h1 class="title">See breakdown of your expenses</h1>
           <p class="cont">Compare and evaluate how much you spent on each trip and travel.</p>
         </div>
 
-        <div class="col-lg-4 col-md-6 ctr">
+        <div class="col-lg-4 col-md-6 ctr" data-aos="fade-up" data-aos-duration="950" data-aos-delay="200">
           <img src="assets/img/convert.png" class="wwd-img"><br>
           <h1 class="title">Converts to different currencies</h1>
           <p class="cont">Plan your trips and travels and convert foreign currencies to your local curreny on the go.
           </p>
         </div>
 
-        <div class="col-lg-6 col-md-6 ctr ">
+        <div class="col-lg-6 col-md-6 ctr" data-aos="fade-right" data-aos-duration="950" data-aos-delay="250">
           <img src="assets/img/split.png" class="wwd-img"><br>
           <h1 class="title">Split travel expenses with friends</h1>
           <p class="cont">Create a family and friends budget, split costs with each other, travel as group and pay as a
             group.</p>
         </div>
 
-        <div class="col-lg-6 col-md-12 ctr">
+        <div class="col-lg-6 col-md-12 ctr" data-aos="fade-left" data-aos-duration="950" data-aos-delay="300">
           <img src="assets/img/organize.png" class="wwd-img"><br>
           <h1 class="title">Stay organized with travel plans</h1>
           <p class="cont">
@@ -146,7 +149,7 @@
   </section>
 
   <!-- Get Our App Section -->
-  <section id="goa">
+  <section id="goa" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="150">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -193,21 +196,21 @@
       </p>
 
       <div class="row mfs">
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
           <img src="assets/img/flight.png" class="mfs-img"><br>
           <h1 class="title">Flight and hotel reservations</h1>
           <p class="cont">Book all your reservations with our service. Never miss a flight again with <b>wakaTracker</b>
           </p>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
           <img src="assets/img/collaborate.png" class="mfs-img"><br>
           <h1 class="title">Real-time location of friends</h1>
           <p class="cont">Keep track of your travel travel buddies and get real-time location of their whereabouts while
             on a trip together.</p>
         </div>
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
           <img src="assets/img/plan.png" class="mfs-img"><br>
           <h1 class="title">Mark and share popular spots</h1>
           <p class="cont">Share your favourite travel spots, hotels and airlines. This makes traveling interesting and
@@ -290,7 +293,14 @@
     </section>
   </footer>
 
+  <!-- AOS Js File -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
   <!-- Dist Js File -->
+  <script src="assets/js/app.js"></script>
   <script src="dist/js/bootstrap.bundle.min.js"></script>
   <script src="dist/fontawesome/js/all.js"></script>
   <script src="dist/js/all.js"></script>
