@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/montserrat');
-@import url('https://db.onlinewebfonts.com/c/29ddb4605533a38e086b48fa105e0d12?family=Nohemi');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sanss:wght@600&display=swap');
 
 * {
   font-family: 'montserrat';
@@ -11,7 +11,7 @@ body {
 
 span.navbar-toggler-icon {
   color: #1a5fb4;
-  font-size: calc(15px + 0.2vw);
+  font-size: calc(13px + 0.2vw);
 }
 
 button.navbar-toggler {
@@ -38,8 +38,8 @@ img.sicon {
 }
 
 a.siteicon {
-  font-family: 'Nohemi';
-  font-size: calc(17px + 0.2vw);
+  font-family: 'Noto Sans', sans-serif;
+  font-size: calc(16px + 0.2vw);
   color: #1a5fb4;
   font-weight: 800;
   letter-spacing: 0.2px;
@@ -210,7 +210,7 @@ div.ctr {
 
 .cont {
   font-size: calc(11.5px + 0.2vw);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.3;
   padding: 0 0 10px;
 }
@@ -331,7 +331,7 @@ p.ratin {
 }
 
 .footer-h {
-  font-family: "Nohemi";
+  font-family: 'Noto Sans', sans-serif;
   font-size: calc(25px + 0.1vw);
   font-weight: bolder;
   color: #ff7800;
@@ -599,6 +599,19 @@ ul.footer-li {
     border: none;
   }
 
+    img.sicon {
+      width: 16%;
+      height: auto;
+    }
+
+  a.siteicon {
+    font-family: 'Noto Sans', sans-serif;
+    display: inline;
+    font-size: calc(15px + 0.2vw);
+    width: 245px;
+    height: auto;
+  }
+
   a.dropdown-item {
     padding: 5px 0;
     font-size: calc(13px + 0.25vw);
@@ -621,7 +634,7 @@ ul.footer-li {
   }
 
   nav.styt {
-    padding: 13px 5px 10px;
+    padding: 13px 3px 12px;
   }
 
   /* Hero */
@@ -779,4 +792,3 @@ ul.footer-li {
   }
 
 }
-
